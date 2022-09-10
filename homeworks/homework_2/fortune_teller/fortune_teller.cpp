@@ -50,7 +50,7 @@ std::cout <<std::endl;
 
 //Final fortune statement
 
-std::cout <<"Here is your description: \n";
+std::cout <<"Here is your description:\n";
     std::cout << user_name << ", the " << getAdjective(list_adjective, user_name)<<" " << getNoun(seasons_to_adjective, birth_season)
             <<" that "  << getEnding(ending_strings, user_name) << std::endl;
 }
@@ -66,17 +66,17 @@ void getUserInput(std::string &user_name, std::vector<std::string> &list_adjecti
     //takes a valid season
     while (seasons.find(birth_season) == seasons.end())
     {
-        std::cout << "Please enter the time of year when you were born: \n";
-        std::cout << "(pick from 'spring', 'summer', 'autumn', 'winter') \n";
+        std::cout << "Please enter the time of year when you were born:\n";
+        std::cout << "(pick from 'spring', 'summer', 'autumn', 'winter')\n";
         std::cin >> birth_season;
     }//end while
 
 //ToDo: checks validity of the adjective, i.e: its not a numeric or something which is not meaning full english word
-    std::cout << "Please enter an adjective: \n";
+    std::cout << "Please enter an adjective:\n";
     std::cin >> user_adjective;
     list_adjective.emplace_back(user_adjective);
 
-    std::cout << "Please enter another adjective: \n";
+    std::cout << "Please enter another adjective:\n";
     std::cin >> user_adjective;
     list_adjective.emplace_back(user_adjective);
 }
