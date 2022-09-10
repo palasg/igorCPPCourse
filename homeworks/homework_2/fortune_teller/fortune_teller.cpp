@@ -42,9 +42,14 @@ int main()
     std::string user_name;
     std::vector<std::string> list_adjective;
     std::string birth_season;
+
 //getting user input
     getUserInput(user_name, list_adjective, birth_season, seasons);
+
+std::cout <<std::endl;
+std::cout <<std::endl;
 //Final fortune statement
+
 std::cout <<"Here is your description: \n";
     std::cout << user_name << ", the " << getAdjective(list_adjective, user_name)<<" " << getNoun(seasons_to_adjective, birth_season)
             <<" that "  << getEnding(ending_strings, user_name) << std::endl;
