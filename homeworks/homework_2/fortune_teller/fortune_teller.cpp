@@ -47,7 +47,7 @@ int main()
     getUserInput(user_name, list_adjective, birth_season, seasons);
 
 std::cout <<std::endl;
-std::cout <<std::endl;
+
 //Final fortune statement
 
 std::cout <<"Here is your description: \n";
