@@ -32,7 +32,7 @@ int main()
 
     const std::set<std::string> seasons = {"spring", "autumn", "winter", "summer"};
     const std::map<std::string, std::string> seasons_to_adjective = {{"spring", "STL guru"},
-                                                                     {"autumn", "C++ expert"},
+                                                                     {"summer", "C++ expert"},
                                                                      {"autumn", "coding beast"},
                                                                      {"winter", "software design hero"}};
     const std::vector<std::string> ending_strings = {"eats UB for breakfast",
@@ -61,7 +61,7 @@ void getUserInput(std::string &user_name, std::vector<std::string> &list_adjecti
     //takes a valid season
     while (seasons.find(birth_season) == seasons.end())
     {
-        std::cout << "Please enter the time of year you were born: \n";
+        std::cout << "Please enter the time of year when you were born: \n";
         std::cout << "(pick from 'spring', 'summer', 'autumn','winter') \n";
         std::cin >> birth_season;
     }//end while
