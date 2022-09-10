@@ -47,7 +47,7 @@ int main()
 //Final fortune statement
 std::cout <<"Here is your description: \n";
     std::cout << user_name << ", the " << getAdjective(list_adjective, user_name)<<" " << getNoun(seasons_to_adjective, birth_season)
-            <<" thats "  << getEnding(ending_strings, user_name) << std::endl;
+            <<" that "  << getEnding(ending_strings, user_name) << std::endl;
 }
 /**
  *@brief: getUserInput takes all the necessary user inputs 
