@@ -67,7 +67,7 @@ void getUserInput(std::string &user_name, std::vector<std::string> &list_adjecti
     while (seasons.find(birth_season) == seasons.end())
     {
         std::cout << "Please enter the time of year when you were born: \n";
-        std::cout << "(pick from 'spring', 'summer', 'autumn','winter') \n";
+        std::cout << "(pick from 'spring', 'summer', 'autumn', 'winter') \n";
         std::cin >> birth_season;
     }//end while
 
