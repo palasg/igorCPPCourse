@@ -36,9 +36,6 @@ std::size_t counter=0;
 
 bool is_guess_correct = false;
 
-std::cout << "Largest and smallest num " <<largest_num <<smallest_num<<std::endl;
-std::cout << "Usr guessed and random " << user_guess <<randon_num <<std::endl;
-
 
 while (!is_guess_correct)
 
