@@ -33,7 +33,7 @@ std::cout << "I've generated a number. Try to guess it!" <<std::endl;
 std::cin>> user_guess;
 
 std::size_t counter=0;
-
+std::cout << "Please provide the next guess:"<<std::endl; 
 bool is_guess_correct = false;
 
 
