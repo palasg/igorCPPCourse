@@ -30,30 +30,32 @@ int randon_num = generateRandomNum(smallest_num, largest_num);
 
 std::cout << "I've generated a number. Try to guess it!" <<std::endl;
 
-std::cin>> user_guess;
+
 
 std::size_t counter=0;
-std::cout << "Please provide the next guess:"<<std::endl; 
+
 bool is_guess_correct = false;
 
 
 while (!is_guess_correct)
 
 {
+    //std::cout << "Please provide the next guess: "; 
+    std::cin>> user_guess;
     counter++;
     if(user_guess > randon_num)
     {
-        std::cout <<"Your number is too big. Try again!" <<std::endl;
-        std::cin >> user_guess;
+        std::cout <<"Please provide the next guess: Your number is too big. Try again!" <<std::endl;
+        
     }
     else if (user_guess < randon_num)
     {
-        std::cout <<"Your number is too small. Try again!" <<std::endl;
-        std::cin >> user_guess;
+        std::cout <<"Please provide the next guess: Your number is too small. Try again!" <<std::endl;
+        
     }
     else
     {
-        std::cout <<"You've done it! You guessed the number "<< randon_num<<" in "<< counter<<" guesses!"<<std::endl;
+        std::cout <<"Please provide the next guess: You've done it! You guessed the number "<< randon_num<<" in "<< counter<<" guesses!"<<std::endl;
         is_guess_correct  = true;
     }
     
