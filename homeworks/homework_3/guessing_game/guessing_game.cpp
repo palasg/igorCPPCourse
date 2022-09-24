@@ -53,7 +53,7 @@ while (!is_guess_correct)
     }
     else
     {
-        std::cout <<"You've done it! You guessed the number "<< randon_num<<" in"<< counter<<" guesses!"<<std::endl;
+        std::cout <<"You've done it! You guessed the number "<< randon_num<<" in "<< counter<<" guesses!"<<std::endl;
         is_guess_correct  = true;
     }
     
