@@ -3,7 +3,7 @@
 namespace no_strings_attached::split_string
 {
 
-    std::vector<std::string> split_string(const std::string &input_string, const std::string &delim)
+    std::vector<std::string> Split(const std::string &input_string, const std::string &delim)
     {
         std::vector<std::string> result;
         std::string copy_input_string = input_string;
@@ -24,9 +24,9 @@ namespace no_strings_attached::split_string
         return result;
     }
 
-std::vector<std::string> split_string(const std::string &input_string, const std::string &delim, std::size_t number_of_splits_to_return){
+std::vector<std::string> Split(const std::string &input_string, const std::string &delim, std::size_t number_of_splits_to_return){
     std::vector<std::string>result;
-    std::vector<std::string>all_elements = split_string(input_string,delim);
+    std::vector<std::string>all_elements = Split(input_string,delim);
     for (size_t i = 0; i < number_of_splits_to_return; i++)
     {
         result.push_back(all_elements[i]);
