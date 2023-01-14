@@ -1,5 +1,6 @@
 #include "inc/string_trim.h"
 #include <algorithm>
+#include<iostream>
 
 namespace no_strings_attached::string_trim
 {
@@ -38,7 +39,8 @@ namespace no_strings_attached::string_trim
         default:
             break;
         }
-        return input_copy;
+        std::cout<<input_copy<<"\n";
+        return std::move(input_copy);
     }
 
     std::string Trim(const std::string &str)
