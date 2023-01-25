@@ -1,4 +1,4 @@
-#include "inc/string_trim.h"
+#include "string_trim.h"
 #include <algorithm>
 #include<iostream>
 
