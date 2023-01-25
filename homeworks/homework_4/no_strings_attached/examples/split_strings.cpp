@@ -2,7 +2,7 @@
 #include"no_strings_attached/split_string.h"
 
 int main(){
-    std::cout<<"Example program that splits strings. \n";
+    std::cout<<"Example program that splits strings.\n";
     std::cout<<"Please enter a string:\n";
     std::string input_str; 
     std::string delim=" ";
@@ -13,7 +13,7 @@ int main(){
     std::cout<<"Your split string:";
     for (auto& each_split : result)
     {
-        std::cout<<"'"<<each_split<<"'";
+        std::cout<<" '"<<each_split<<"'";
     }
     
     return 0;
