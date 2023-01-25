@@ -1,5 +1,5 @@
 #include<gtest/gtest.h>
-#include"split_string.h"
+#include"string_split.h"
 
 TEST(Split_string, demo_test){
     std::vector<std::string> result = no_strings_attached::split_string::Split("Hello World"," ");
