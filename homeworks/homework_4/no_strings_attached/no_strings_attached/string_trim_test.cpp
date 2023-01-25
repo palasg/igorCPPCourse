@@ -1,5 +1,5 @@
 #include<gtest/gtest.h>
-#include"inc/string_trim.h"
+#include"string_trim.h"
 
 
 TEST(trim_test, demo_trim_test){

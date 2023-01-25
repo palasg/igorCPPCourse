@@ -1,4 +1,4 @@
-#include "inc/split_string.h"
+#include "split_string.h"
 
 namespace no_strings_attached::split_string
 {

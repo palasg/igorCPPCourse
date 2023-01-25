@@ -1,5 +1,5 @@
 #include<iostream>
-#include"string_trim.h"
+#include"no_strings_attached/string_trim.h"
 
 
 int main(){

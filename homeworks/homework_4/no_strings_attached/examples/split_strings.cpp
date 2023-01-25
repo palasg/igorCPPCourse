@@ -1,5 +1,5 @@
 #include<iostream>
-#include"split_string.h"
+#include"no_strings_attached/split_string.h"
 
 int main(){
     std::cout<<"Example program that splits strings. \n";
