@@ -1,6 +1,6 @@
 #include "string_split.h"
 
-namespace no_strings_attached::split_string
+namespace no_strings_attached::Split
 {
 
     std::vector<std::string> Split(const std::string &input_string, const std::string &delim)

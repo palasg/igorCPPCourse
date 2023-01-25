@@ -2,7 +2,7 @@
 #include <algorithm>
 #include<iostream>
 
-namespace no_strings_attached::string_trim
+namespace no_strings_attached::Trim
 {
     static inline std::string Ltrim(std::string &str, char char_to_trim)
     {
@@ -39,8 +39,7 @@ namespace no_strings_attached::string_trim
         default:
             break;
         }
-        std::cout<<input_copy<<"\n";
-        return std::move(input_copy);
+        return input_copy;
     }
 
     std::string Trim(const std::string &str)

@@ -3,11 +3,13 @@
 
 
 int main(){
-    std::string str= "  his is an example ";
+    std::cout<<"Example program that splits strings.\n";
+    std::cout<<"Please enter a string:\n";
+    std::string input_str; 
+    std::getline(std::cin, input_str);
     char char_1 = ' ';
-    std::cout<<"The original string:" <<str<<std::endl;
-    std::string after_trim = no_strings_attached::string_trim::Trim(str,char_1,no_strings_attached::string_trim::Side::kBoth);
-    std::cout<<"After trim:" <<after_trim<<"\n";
+    input_str = no_strings_attached::Trim::Trim(input_str,char_1,no_strings_attached::Trim::Side::kBoth);
+    std::cout<<"Your trimmed string: '" <<input_str<<"'"<<std::endl;
 
     return 0;
 }

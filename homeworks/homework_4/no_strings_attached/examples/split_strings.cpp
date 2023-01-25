@@ -9,7 +9,7 @@ int main(){
     std::getline(std::cin, input_str);
     //std::cin>> input_str; 
     //std::cout<<"The given string is: " << input_str<<std::endl;
-    std::vector<std::string> result = no_strings_attached::split_string::Split(input_str, delim);
+    std::vector<std::string> result = no_strings_attached::Split::Split(input_str, delim);
     std::cout<<"Your split string:";
     for (auto& each_split : result)
     {

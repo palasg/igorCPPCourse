@@ -2,7 +2,7 @@
 #define NO_STRING_ATTACHED_STRING_TRIM_H
 #include<string>
 
-namespace no_strings_attached::string_trim
+namespace no_strings_attached::Trim
 {
     enum class Side{
         kLeft,
