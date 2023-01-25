@@ -2,6 +2,7 @@
 #include <algorithm>
 #include<iostream>
 
+
 namespace no_strings_attached::Trim
 {
     static inline std::string Ltrim(std::string &str, char char_to_trim)
